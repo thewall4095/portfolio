@@ -1,16 +1,18 @@
 .topbar{
-    // height: 100px;
+    padding: 40px;
     .namenlogo{
         .name{
-            
+            font-family: 'Grenze', serif;
+            text-transform: uppercase;
+            font-weight: bold;
         }
         .title{
-
+            font-family: 'Grenze', serif;
+            font-weight: 100;
         }
     }
     .tabs{
         .menuitem{
-            padding: 40px;
             &.active{
                 border-bottom: 5px solid #26A69A;
             }
