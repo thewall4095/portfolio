@@ -1,0 +1,13 @@
+.appLayout{
+    height: 100%;
+    background: url('./../assets/portback.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: azure;
+    font-family: sans-serif;
+    .contentCenter{
+        padding: 0 15%;
+    }
+}

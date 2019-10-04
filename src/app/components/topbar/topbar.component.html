@@ -1,0 +1,15 @@
+<div class="row topbar">
+    <div class="col-6 text-center namenlogo">
+        <div class="name">Dp</div>
+        <div class="title">Fswd</div>
+    </div>
+    <div class="col-6 tabs">
+        <div class="row">
+            <div class="col-4 text-center menuitem" *ngFor="let menuItem of menuItems" routerLinkActive="active">
+                <a [routerLink]="[menuItem.path]">
+                    <h5>{{menuItem.title}}</h5>
+                </a>
+            </div>
+        </div>
+    </div>    
+</div>
