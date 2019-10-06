@@ -12,6 +12,7 @@ export class TopbarComponent implements OnInit {
     this.menuItems = [
       { path: '/home', title: 'Home'},
       { path: '/projects', title: 'Projects'},
+      { path: '/skills', title: 'Skills'},
       { path: '/contact', title: 'Contact'},
     ];
   }

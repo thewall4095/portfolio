@@ -15,6 +15,7 @@ import { DataService } from './services/data.service';
 import { FooterComponent } from './components/footer/footer.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { SkillsComponent } from './components/skills/skills.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     HomeComponent,
     ProjectsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
