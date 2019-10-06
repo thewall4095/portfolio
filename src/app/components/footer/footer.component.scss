@@ -1,0 +1,18 @@
+.footer{
+    position: fixed;
+    // left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    .icons{
+        margin: 8px;
+        height: 32px;
+        float: left;
+    }
+    .author{
+        margin: 0;
+        padding: 10px;
+        float: right;
+    }
+}
