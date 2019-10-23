@@ -7,13 +7,13 @@
   </div>
   <form class="contact-form">
     <div class="row">
-      <div class="form-item col-6">
+      <div class="form-item col-sm-12 col-md-6">
         <label>
           Name:
           <input type="text" [formControl]="name">
         </label>
       </div>
-      <div class="form-item col-6">
+      <div class="form-item col-sm-12 col-md-6">
         <label>
           Email:
           <input type="text" [formControl]="email">
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="form-item col-12">
+      <div class="form-item col-sm-12 col-md-12">
         <label>
             HOW CAN I HELP?:
           <textarea rows = "5" cols = "60" [formControl]="message"></textarea>
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="row">
-        <div class="form-item col-3">
+        <div class="form-item col-sm-12 col-md-3">
             <button class="needHire" (click)="submit()" mat-raised-button>Send Message<i class="material-icons"> keyboard_arrow_right
             </i></button>
         </div>
